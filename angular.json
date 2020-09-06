@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "threshold-warning-directive": {
+    "paginate-directive": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/threshold-warning-directive",
+            "outputPath": "dist/paginate-directive",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -62,18 +62,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "threshold-warning-directive:build"
+            "browserTarget": "paginate-directive:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "threshold-warning-directive:build:production"
+              "browserTarget": "paginate-directive:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "threshold-warning-directive:build"
+            "browserTarget": "paginate-directive:build"
           }
         },
         "test": {
@@ -110,15 +110,15 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "threshold-warning-directive:serve"
+            "devServerTarget": "paginate-directive:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "threshold-warning-directive:serve:production"
+              "devServerTarget": "paginate-directive:serve:production"
             }
           }
         }
       }
     }},
-  "defaultProject": "threshold-warning-directive"
+  "defaultProject": "paginate-directive"
 }
