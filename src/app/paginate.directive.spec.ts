@@ -47,13 +47,11 @@ function expectItems(elements: DebugElement[], expectedItems: number[]): void {
 describe('PaginateDirective', () => {
   let fixture: ComponentFixture<HostComponent>;
 
-  beforeEach(
-    waitForAsync(() => {
-      TestBed.configureTestingModule({
-        declarations: [HostComponent, PaginateDirective],
-      });
-    })
-  );
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [HostComponent, PaginateDirective],
+    }).compileComponents();
+  });
 
   beforeEach(() => {
     fixture = TestBed.createComponent(HostComponent);
