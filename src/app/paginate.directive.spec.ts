@@ -49,7 +49,7 @@ describe('PaginateDirective', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [HostComponent, PaginateDirective],
+      declarations: [PaginateDirective, HostComponent],
     }).compileComponents();
   });
 
