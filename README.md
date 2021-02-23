@@ -1,5 +1,8 @@
 # PaginateDirective
 
+📖 This example is part of the **[free online book: Testing Angular – A Guide to Robust Angular Applications
+](https://molily.de/testing-angular/)**. 📖
+
 Testing a complex structural Directive.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.0.
